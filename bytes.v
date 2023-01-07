@@ -8,7 +8,7 @@ fn logn(n f64, b f64) f64 {
 
 fn humanate_bytes(s u64, base f64, sizes []string) string {
 	if s < 10 {
-		return "{s} B"
+		return "${s} B"
 	}
 	e := math.floor(logn(f64(s), base))
 	suffix := sizes[int(e)]
