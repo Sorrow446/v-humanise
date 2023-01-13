@@ -9,6 +9,11 @@ import sorrow446.vhumanise
 
 ## Sizes
 ```v
-  println(vhumanise.bytes(209405406)) // 209 MB
-  println(vhumanise.bytes(62671423478)) // 63 GB
+  vhumanise.bytes(209405406) // 209 MB
+  vhumanise.bytes(62671423478) // 63 GB
+ ```
+
+## Ordinals
+	vhumanise.ordinal(10) // 10th
+	vhumanise.ordinal(123) // 123rd
  ```
