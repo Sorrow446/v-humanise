@@ -18,3 +18,6 @@ vhumanise.bytes(62671423478) // 63 GB
 vhumanise.ordinal(10) // 10th
 vhumanise.ordinal(123) // 123rd
 ```
+
+## Thank you
+Based on Dustin's go-humanize lib.
